@@ -10,7 +10,6 @@ const stackObject = {
         //Fill the array with element's data: at pointer location
         this.items[this.pointerLocation] = element;
 
-        return this.items;
     }, 
     //This function removes the topmost element from the stack:
     pop: function() {
@@ -20,7 +19,6 @@ const stackObject = {
         //(the pointer counts from 0, so add 1 for the proper length)
         this.items.length = (this.pointerLocation + 1);
 
-        return this.items;
     }, 
     //This function returns the topmost element of the stack WITHOUT changing the stack:
     top: function() {
