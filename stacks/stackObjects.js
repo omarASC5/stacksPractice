@@ -27,8 +27,3 @@ const stackObject = {
     }
 }
 
-stackObject.push(3);
-stackObject.push(5);
-stackObject.push(9);
-stackObject.pop();
-console.log(stackObject.items);
